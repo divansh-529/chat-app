@@ -3,16 +3,8 @@
 
 :root {
     --text-align-center: left;
-}
-
-/* root for font famely */
-:root {
     --roboto: "Roboto", sans-serif;
     --poppins: "Poppins", sans-serif;
-}
-
-/* root for font-size */
-:root {
     --fs-16: 16px;
     --fs-17: 17px;
     --fs-45: 45px;
@@ -23,10 +15,6 @@
     --fs-14: 14px;
     --fs-13: 13px;
     --fs-15: 15px;
-}
-
-/* root for font-weight */
-:root {
     --fw-400: 400;
     --fw-500: 500;
     --fw-700: 700;
