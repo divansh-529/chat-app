@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --text-align-center: left;
+}
+
+/* root for font famely */
+:root {
+    --roboto: "Roboto", sans-serif;
+    --poppins: "Poppins", sans-serif;
+}
+
+/* root for font-size */
+:root {
+    --fs-16: 16px;
+    --fs-17: 17px;
+    --fs-45: 45px;
+    --fs-18: 18px;
+    --fs-21: 21px;
+    --fs-75: 75px;
+    --fs-26: 26px;
+    --fs-14: 14px;
+    --fs-13: 13px;
+    --fs-15: 15px;
+}
+
+/* root for font-weight */
+:root {
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+    --fw-200: 200;
+    --fw-500: 500;
+}
+
+/* root for line-height */
+:root {
+    --lh-29: 29.11px;
+    --lh-96-3: 96.3px;
+    --lh-57: 57.78px
+}
+
+
+@media (max-width:992px) {
+    :root {
+        --text-align-center: center;
+    }
+
+    :root {
+        --lh-29: 21px;
+        --lh-96-3: 65px;
+        --lh-57: 30.06px
+    }
+
+    :root {
+        --fs-16: 16px;
+        --fs-17: 17px;
+        --fs-45: 30px;
+        --fs-18: 18px;
+        --fs-21: 21px;
+        --fs-75: 50px;
+        --fs-26: 18px;
+        --fs-14: 14px;
+        --fs-13: 13px;
+        --fs-15: 15px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --lh-29: 16.11px;
+        --lh-96-3: 50.3px;
+        --lh-57: 27.78px
+    }
+
+    :root {
+        --fs-16: 16px;
+        --fs-17: 17px;
+        --fs-45: 25px;
+        --fs-18: 12px;
+        --fs-21: 21px;
+        --fs-75: 40px;
+        --fs-26: 18px;
+        --fs-14: 14px;
+        --fs-13: 13px;
+        --fs-15: 15px;
+    }
+}
