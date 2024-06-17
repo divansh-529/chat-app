@@ -44,7 +44,7 @@
      font-weight: var(--fw-700);
      font-weight: var(--lh-29);
     text-align: var(--text-align-center);
-    color: rgba(43, 53, 62, 0.7);
+    color: var(--light-black);
     max-width: 274px;
 
 }
@@ -62,8 +62,9 @@
 
 
 .section-blue {
-    background: #1E71FF;
+    background: var(--blue);
 }
+
 
 /* navbar work*/
 .logo {
@@ -73,7 +74,7 @@
     line-height: 30.16px;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #FFFFFF;
+    color:  var(--white);
 }
 
 .logo-2 {
@@ -84,7 +85,7 @@
     margin-bottom: 3px;
     width: 30px;
     height: 4px;
-    background: white;
+    background:  var(--white);
 }
 
 .links {
@@ -94,7 +95,7 @@
      font-weight: var(--fw-500);
     line-height: 16.41px;
     text-align: right;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
     text-decoration: none;
 
 }
@@ -106,16 +107,16 @@
 }
 
 .try {
-    width: 111px;
+       width: 111px;
     height: 40px;
     border-radius: 210px;
-    background-color: #4B8DFF;
+    background-color:  var(--blue4);;
     font-family: var(--roboto);
     font-size: var(--fs-14);
      font-weight: var(--fw-500);
     line-height: 16.41px;
     text-align: center;
-    color: #FFFFFF;
+    color:  var(--white);
     outline: none;
     border: none;
     transition: all .5s linear;
@@ -141,7 +142,7 @@
      font-weight: var(--lh-96-3);
     letter-spacing: -0.02em;
     text-align: var(--text-align-center);
-    color: #FFFFFF;
+    color:  var(--white);;
     margin-bottom: 0;
 }
 
@@ -152,7 +153,7 @@
      font-weight: var(--fw-400);
     line-height: 24.61px;
     text-align: var(--text-align-center);
-    color: white;
+    color:  var(--white);;
     margin-bottom: 0;
 }
 
@@ -160,21 +161,21 @@
     width: 172px;
     height: 50px;
     border-radius: 60px;
-    background: #1E71FF;
+    background: var(--blue);;
     font-family: var(--roboto);
     font-size: var(--fs-16);
      font-weight: var(--fw-500);
     line-height: 18.75px;
     text-align: center;
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 1);
+    color:  var(--white);;
+    border: 1px solid var(--white);
     transition: all .3s linear;
 
 }
 
 .bt-1:hover {
-    background: #FFFFFF;
-    color: #1E71FF;
+    background:  var(--white);;
+    color: var(--blue);;
 }
 
 /* section 2 */
@@ -231,7 +232,7 @@
      font-weight: var(--fw-400);
     line-height: 33.96px;
     text-align: var(--text-align-center);
-    color: rgba(43, 53, 62, 0.7);
+    color:  var(--light-black);;
     ;
 }
 
@@ -257,21 +258,21 @@
     width: 167px;
     height: 50px;
     border-radius: 60px;
-    background: white;
+    background:  var(--white);;
     font-family: var(--roboto);
     font-size: var(--fs-17);
      font-weight: var(--fw-500);
     line-height: 19.92px;
     text-align: center;
-    color: #1E71FF;
-    border: 1px solid #1E71FF;
+    color: var(--blue);;
+    border: 1px solid var(--blue);;
     transition: all .3s linear;
 
 }
 
 .bt-2:hover {
-    background: #1E71FF;
-    color: white;
+    background: var(--blue);;
+    color:  var(--white);;
 
 }
 
@@ -310,7 +311,7 @@
      font-weight: var(--fw-400);
     line-height: 21.02px;
     text-align: left;
-    color:  rgba(43, 53, 62, 0.7);;
+    color:   var(--light-black);;;
 
 }
 
@@ -321,7 +322,7 @@
      font-weight: var(--fw-400);
     line-height: 24.25px;
     text-align: left;
-    color: rgba(43, 53, 62, 0.7);
+    color:  var(--light-black);;
 }
 
 .max-width-168 {
@@ -358,7 +359,7 @@ footer ul {
     line-height: 21.02px;
     text-align: left;
     margin-bottom: 12px;
-    color: rgba(43, 53, 62, 0.7);
+    color:  var(--light-black);;
 }
 
 @media (max-width: 992px) {
