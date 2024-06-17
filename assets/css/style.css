@@ -3,9 +3,11 @@
 .pt-35 {
     padding-top: 35px;
 }
-.mt180{
+
+.mt180 {
     margin-top: 180px;
 }
+
 .ml36 {
     margin-left: 36px;
 }
@@ -41,8 +43,8 @@
 .a5000 {
     font-family: var(--roboto);
     font-size: var(--fs-18);
-     font-weight: var(--fw-700);
-     font-weight: var(--lh-29);
+    font-weight: var(--fw-700);
+    font-weight: var(--lh-29);
     text-align: var(--text-align-center);
     color: var(--light-black);
     max-width: 274px;
@@ -51,11 +53,11 @@
 
 
 .a5000 span {
-   
+
     font-family: var(--roboto);
     font-size: var(--fs-18);
-     font-weight: var(--fw-400);
-     font-weight: var(--lh-29);
+    font-weight: var(--fw-400);
+    font-weight: var(--lh-29);
     text-align: var(--text-align-center);
 }
 
@@ -68,31 +70,31 @@
 
 /* navbar work*/
 .logo {
-    
+
     font-size: var(--fs-26);
-     font-weight: var(--fw-600);
+    font-weight: var(--fw-600);
     line-height: 30.16px;
     letter-spacing: -0.02em;
     text-align: center;
-    color:  var(--white);
+    color: var(--white);
 }
 
 .logo-2 {
-     font-weight: var(--fw-200);
+    font-weight: var(--fw-200);
 }
 
 .line {
     margin-bottom: 3px;
     width: 30px;
     height: 4px;
-    background:  var(--white);
+    background: var(--white);
 }
 
 .links {
     gap: 30px;
     font-family: var(--roboto);
     font-size: var(--fs-14);
-     font-weight: var(--fw-500);
+    font-weight: var(--fw-500);
     line-height: 16.41px;
     text-align: right;
     color: var(--white);
@@ -107,16 +109,17 @@
 }
 
 .try {
-       width: 111px;
+    width: 111px;
     height: 40px;
     border-radius: 210px;
-    background-color:  var(--blue4);;
+    background-color: var(--blue4);
+    ;
     font-family: var(--roboto);
     font-size: var(--fs-14);
-     font-weight: var(--fw-500);
+    font-weight: var(--fw-500);
     line-height: 16.41px;
     text-align: center;
-    color:  var(--white);
+    color: var(--white);
     outline: none;
     border: none;
     transition: all .5s linear;
@@ -138,11 +141,12 @@
 .have {
     font-family: var(--poppins);
     font-size: var(--fs-75);
-     font-weight: var(--fw-600);
-     font-weight: var(--lh-96-3);
+    font-weight: var(--fw-600);
+    font-weight: var(--lh-96-3);
     letter-spacing: -0.02em;
     text-align: var(--text-align-center);
-    color:  var(--white);;
+    color: var(--white);
+    ;
     margin-bottom: 0;
 }
 
@@ -150,10 +154,11 @@
     margin-top: 20px;
     font-family: var(--roboto);
     font-size: var(--fs-21);
-     font-weight: var(--fw-400);
+    font-weight: var(--fw-400);
     line-height: 24.61px;
     text-align: var(--text-align-center);
-    color:  var(--white);;
+    color: var(--white);
+    ;
     margin-bottom: 0;
 }
 
@@ -161,21 +166,40 @@
     width: 172px;
     height: 50px;
     border-radius: 60px;
-    background: var(--blue);;
+    background: var(--white);
     font-family: var(--roboto);
     font-size: var(--fs-16);
-     font-weight: var(--fw-500);
+    font-weight: var(--fw-500);
     line-height: 18.75px;
     text-align: center;
-    color:  var(--white);;
+    color: var(--blue);
+    ;
     border: 1px solid var(--white);
     transition: all .3s linear;
 
 }
 
+.bt111 {
+    width: 172px;
+    height: 50px;
+    border-radius: 60px;
+    background: var(--blue);
+    font-family: var(--roboto);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    line-height: 18.75px;
+    text-align: center;
+    color: var(--white);
+    border: 1px solid var(--white);
+    transition: all .3s linear;
+}
+
+.bt111:hover {
+    scale: 1.1;
+}
+
 .bt-1:hover {
-    background:  var(--white);;
-    color: var(--blue);;
+    scale: 1.1;
 }
 
 /* section 2 */
@@ -184,8 +208,8 @@
     margin-top: 90px;
     font-family: var(--poppins);
     font-size: var(--fs-45);
-     font-weight: var(--fw-500);
-     font-weight: var(--lh-57);
+    font-weight: var(--fw-500);
+    font-weight: var(--lh-57);
     text-align: center;
     color: rgba(43, 53, 62, 1);
     margin-bottom: 30px;
@@ -195,8 +219,8 @@
 .lorem {
     font-family: var(--roboto);
     font-size: var(--fs-18);
-     font-weight: var(--fw-400);
-     font-weight: var(--lh-29);
+    font-weight: var(--fw-400);
+    font-weight: var(--lh-29);
     text-align: center;
     max-width: 566px;
     height: 145px;
@@ -219,8 +243,8 @@
 .perfect {
     font-family: var(--poppins);
     font-size: var(--fs-45);
-     font-weight: var(--fw-500);
-     font-weight: var(--lh-57);
+    font-weight: var(--fw-500);
+    font-weight: var(--lh-57);
     text-align: var(--text-align-center);
     color: rgba(43, 53, 62, 1);
     ;
@@ -229,10 +253,11 @@
 .pricing {
     font-family: var(--roboto);
     font-size: var(--fs-21);
-     font-weight: var(--fw-400);
+    font-weight: var(--fw-400);
     line-height: 33.96px;
     text-align: var(--text-align-center);
-    color:  var(--light-black);;
+    color: var(--light-black);
+    ;
     ;
 }
 
@@ -258,22 +283,46 @@
     width: 167px;
     height: 50px;
     border-radius: 60px;
-    background:  var(--white);;
+    background: var(--blue);
     font-family: var(--roboto);
     font-size: var(--fs-17);
-     font-weight: var(--fw-500);
+    font-weight: var(--fw-500);
     line-height: 19.92px;
     text-align: center;
-    color: var(--blue);;
-    border: 1px solid var(--blue);;
+    color: var(--white);
+    border: 1px solid var(--blue);
     transition: all .3s linear;
 
 }
 
 .bt-2:hover {
-    background: var(--blue);;
-    color:  var(--white);;
+    scale: 1.1;
+}
 
+.bt-222 {
+    width: 167px;
+    height: 50px;
+    border-radius: 60px;
+    background: var(--white);
+    font-family: var(--roboto);
+    font-size: var(--fs-17);
+    font-weight: var(--fw-500);
+    line-height: 19.92px;
+    text-align: center;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    transition: all .3s linear;
+
+}
+
+footer ul {
+    margin-top: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bt-222:hover {
+    scale: 1.1;
 }
 
 .line-2 {
@@ -290,7 +339,7 @@
 .chatapp {
     font-family: var(--poppins);
     font-size: var(--fs-26);
-     font-weight: var(--fw-600);
+    font-weight: var(--fw-600);
     line-height: 30.16px;
     letter-spacing: -0.02em;
     text-align: left;
@@ -298,7 +347,7 @@
 }
 
 .chatapp span {
-     font-weight: var(--fw-200);
+    font-weight: var(--fw-200);
 }
 
 .pt-90 {
@@ -308,10 +357,12 @@
 .copiright {
     font-family: var(--roboto);
     font-size: var(--fs-13);
-     font-weight: var(--fw-400);
+    font-weight: var(--fw-400);
     line-height: 21.02px;
     text-align: left;
-    color:   var(--light-black);;;
+    color: var(--light-black);
+    ;
+    ;
 
 }
 
@@ -319,10 +370,11 @@
     margin-top: 18px;
     font-family: var(--roboto);
     font-size: var(--fs-15);
-     font-weight: var(--fw-400);
+    font-weight: var(--fw-400);
     line-height: 24.25px;
     text-align: left;
-    color:  var(--light-black);;
+    color: var(--light-black);
+    ;
 }
 
 .max-width-168 {
@@ -336,8 +388,8 @@
 .heading-footer {
     font-family: var(--poppins);
     font-size: var(--fs-18);
-     font-weight: var(--fw-400);
-     font-weight: var(--lh-29);
+    font-weight: var(--fw-400);
+    font-weight: var(--lh-29);
     text-align: left;
     color: rgba(43, 53, 62, 1);
     margin-bottom: 20px;
@@ -355,17 +407,19 @@ footer ul {
     margin-top: 0;
     font-family: var(--roboto);
     font-size: var(--fs-13);
-     font-weight: var(--fw-400);
+    font-weight: var(--fw-400);
     line-height: 21.02px;
     text-align: left;
     margin-bottom: 12px;
-    color:  var(--light-black);;
+    color: var(--light-black);
+    ;
 }
 
 @media (max-width: 992px) {
-    .ram-card{
+    .ram-card {
         justify-content: center;
     }
+
     .line-2-parent {
         align-content: center;
         justify-content: center;
@@ -391,9 +445,11 @@ footer ul {
         position: fixed;
 
     }
-.line-2{
-    margin-top: 55px;
-}
+
+    .line-2 {
+        margin-top: 55px;
+    }
+
     .star {
         justify-content: center;
     }
@@ -481,7 +537,8 @@ footer ul {
     .bt-2 {
         margin-bottom: 15px;
     }
-    .line-2{
+
+    .line-2 {
         margin-top: 45px;
     }
 
