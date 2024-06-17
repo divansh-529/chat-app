@@ -20,28 +20,18 @@
     --fw-700: 700;
     --fw-200: 200;
     --fw-500: 500;
-}
-
-/* root for line-height */
-:root {
     --lh-29: 29.11px;
     --lh-96-3: 96.3px;
     --lh-57: 57.78px
 }
 
-
 @media (max-width:992px) {
     :root {
         --text-align-center: center;
-    }
-
-    :root {
+    
         --lh-29: 21px;
         --lh-96-3: 65px;
-        --lh-57: 30.06px
-    }
-
-    :root {
+        --lh-57: 30.06px;
         --fs-16: 16px;
         --fs-17: 17px;
         --fs-45: 30px;
@@ -59,10 +49,7 @@
     :root {
         --lh-29: 16.11px;
         --lh-96-3: 50.3px;
-        --lh-57: 27.78px
-    }
-
-    :root {
+        --lh-57: 27.78px;
         --fs-16: 16px;
         --fs-17: 17px;
         --fs-45: 25px;
